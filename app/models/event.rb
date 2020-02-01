@@ -155,6 +155,11 @@ class Event < ApplicationRecord
     metadata['remote_id']
   end
 
+  # for elastic search
+  def subtitles
+    recordings.subtitle
+  end
+
   def doi_url
     if doi
       "https://doi.org/#{doi}"
