@@ -1,5 +1,5 @@
 http.host: 0.0.0.0
 
-# for http://splainer.io/
+# for http://splainer.io/ with http://localhost:9200/_search
 http.cors.allow-origin: "/https?:\\/\\/(.*?\\.)?(quepid\\.com|splainer\\.io)/"
 http.cors.enabled: true
